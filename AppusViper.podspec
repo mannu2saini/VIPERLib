@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 :tag => s.version.to_s }
   s.requires_arc = true
 
-
+s.swift_version = '4.1'
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'VIPER/*.swift'
