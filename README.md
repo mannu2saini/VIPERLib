@@ -1,4 +1,4 @@
-<img src="https://sun1-10.userapi.com/c604520/v604520977/3eb44/heULhAh4scA.jpg" width="100%">
+
 
 ![CocoaPods Compatible](https://img.shields.io/badge/pod-v1.0.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-ios-lightgray.svg)
@@ -15,7 +15,7 @@
 ### Template
 
 ```bash
-git clone git@gitlab.appus.software:ios/VIPER-template.git
+git clone https://github.com/mannu2saini/VIPERLib
 cd ./VIPER-template/Template
 sudo swift install.swift
 ```
@@ -36,8 +36,8 @@ platform :ios, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    #pod 'AppusViper', :git => 'git@gitlab.appus.software:ios/VIPER-template.git', :tag => '1.1.0'
-    #pod 'AppusViper', :git => 'git@gitlab.appus.software:ios/VIPER-template.git', :tag => '2.0.0'
+    #pod 'AppusViper', :git => 'https://github.com/mannu2saini/VIPERLib', :tag => '1.1.0'
+    #pod 'AppusViper', :git => 'https://github.com/mannu2saini/VIPERLib', :tag => '2.0.0'
 end
 ```
 
